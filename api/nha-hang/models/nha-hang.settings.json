@@ -1,0 +1,15 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nha_hangs",
+  "info": {
+    "name": "NhaHang",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}

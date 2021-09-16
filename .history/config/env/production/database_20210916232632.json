@@ -1,0 +1,11 @@
+{
+    "defaultConnection":"default",
+    "connections":{
+        "default":{
+            "connector":"bookshelf",
+            "settings":{
+                "client":"mysql"
+            }
+        }
+    }
+}

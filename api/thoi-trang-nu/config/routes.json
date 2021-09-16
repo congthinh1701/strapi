@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/thoi-trang-nus",
+      "handler": "thoi-trang-nu.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/thoi-trang-nus/count",
+      "handler": "thoi-trang-nu.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/thoi-trang-nus/:id",
+      "handler": "thoi-trang-nu.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/thoi-trang-nus",
+      "handler": "thoi-trang-nu.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/thoi-trang-nus/:id",
+      "handler": "thoi-trang-nu.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/thoi-trang-nus/:id",
+      "handler": "thoi-trang-nu.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

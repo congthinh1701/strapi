@@ -1,0 +1,13 @@
+FORM node:12-alpine
+
+ENV PORT 1337
+ENV HOST 1337
+ENV NODE_ENV production
+
+#create app
+RUN mkdir -p /usr/src/app
+WORKER /usr/src/app
+
+#install deps
+
+COPY pack

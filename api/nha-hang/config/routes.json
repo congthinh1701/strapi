@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/nha-hangs",
+      "handler": "nha-hang.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/nha-hangs/count",
+      "handler": "nha-hang.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/nha-hangs/:id",
+      "handler": "nha-hang.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/nha-hangs",
+      "handler": "nha-hang.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/nha-hangs/:id",
+      "handler": "nha-hang.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/nha-hangs/:id",
+      "handler": "nha-hang.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
